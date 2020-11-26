@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Princesa Isabel</title>
+  <meta name="description" content="Free Bootstrap Theme by BootstrapMade.com">
+  <meta name="keywords" content="free website templates, free bootstrap themes, free template, free bootstrap, free website template">
+
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans|Candal|Alegreya+Sans">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/imagehover.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  <!-- Font Awesome -->
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+   <!-- Icon -->
+
+  <link rel="icon" type="flag/png" href="img/icon.png">
+ 
+</head>
+
+<body>
+  <!--Navigation bar-->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="index.html">Princesa<i class="fas fa-frog"></i><span>Isabel</span></a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="produtos.html">Produtos</a></li>
+          <li><a href="sobrenos.html">Sobre Nós</a></li>
+          <li><a href="contato.html">Contato</a></li>
+          <li><a href="desenvolvedores.html">Desenvolvedores</a></li>
+          <li><a href="#" data-target="#login" data-toggle="modal"><i class="fas fa-crown"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!--/ Navigation bar-->
+  <!--Modal box-->
+  <div class="modal fade" id="login" role="dialog">
+    <div class="modal-dialog modal-sm">
+
+      <!-- Modal content no 1-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title text-center form-title">OBRIGADO</h4>
+        </div>
+        <div class="modal-body padtrbl">
+          <div class="login-box-body">
+            <p class="login-box-msg">Agradecemos por visitar o nosso site!!! esperamos que tenha gostado</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <!--/ Modal box-->
+  <!--Banner-->
+  <div class="banner">
+    <div class="bg-color">
+      <div class="container">
+        <div class="row">
+          <div class="banner-text text-center">
+            <div class="text-border">
+              <h2 class="text-dec">Princesa Isabel</h2>
+            </div>
+            <div class="intro-para text-center quote">
+              <p class="big-text">Contato</p>
+              <p class="small-text">Os materias vendidos aqui são qualificados como os melhores em custo-benefício</p>
+              <a href="#contact" class="btn get-quote">VEJA MAIS</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--/ Banner-->
+
+ 
+  <!--Contato-->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="header-section text-center">
+          <h2>Entre em contato</h2>
+          <p>Entre em contato conosco preenchendo o formulário abaixo. Responderemos você o mais breve possível<br> Para uma resposta mais rápida,
+          envie-nos mensagem através do whatsapp.</p>
+          <hr class="bottom-line">
+        </div>
+        <div id="sendmessage">Your message has been sent. Thank you!</div>
+        <div id="errormessage"></div>
+        <form action="" method="post" role="form" class="contactForm">
+          <div class="col-md-6 col-sm-6 col-xs-12 left">
+            <div class="form-group">
+              <input type="text" name="name" class="form-control form" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+              <div class="validation"></div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+              <div class="validation"></div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-sm-6 col-xs-12 right">
+            <div class="form-group">
+              <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+              <div class="validation"></div>
+            </div>
+          </div>
+
+          <div class="col-xs-12">
+            <!-- Button -->
+            <button type="submit" id="submit" name="submit" class="form contact-form-button light-form-button oswald light">SEND EMAIL</button>
+          </div>
+        </form>
+
+      </div>
+    </div>
+  </section>
+  <!--/ Contato-->
+  <!--Footer-->
+  <footer id="footer" class="footer">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="credits">
+            <i class="fas fa-crown fa-4x"></i>
+            <br>
+            <br>
+            Copyright © 2019 - by Princesa Isabel
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="credits">
+           <h3>CONTATO</h3>
+            <ul>
+              <li>Rua Emilia Marengo, 788 – Tatuapé</li>
+              <li>Princesaisabel@gmail.com</li>
+              <li>(11) 2675-1608</li>
+              <li>(11) 9.8724-6228 (Whatsapp)</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="credits">
+            <h3>HORÁRIOS</h3>
+            <tr>
+              <td>Segunda Feira &nbsp; - &nbsp; 09:00 até 19:00</td>
+              <td>Terça Feira &nbsp; - &nbsp; 09:00 até 19:00</td>
+              <td>Quarta Feira &nbsp; - &nbsp; 09:00 até 19:00</td>
+              <td>Quinta Feira &nbsp; - &nbsp; 09:00 até 19:00</td>
+              <td>Sexta Feira &nbsp; - &nbsp; 09:00 até 19:00</td>
+              <td>Sábado &nbsp; - &nbsp; 09:00 até 19:00</td>
+            </tr>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="credits">
+            <h3>GOOGLE MAPS</h3>
+            <a href="https://www.google.com.br/maps"><i class="fas fa-map-marked-alt fa-4x"></i></a>
+          </div>
+        </div>
+    </div>
+    </div>
+  </footer>
+  <!--/ Footer-->
+
+  <script src="js/jquery.min.js"></script>
+  <script src="js/jquery.easing.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/custom.js"></script>
+  <script src="contactform/contactform.js"></script>
+
+</body>
+
+</html>
